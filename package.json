@@ -6,6 +6,14 @@
   "repository": "git@github.com:jsusilo/Node-Vue-MongoDB.git",
   "author": "jsusilo <enr@bk.ru>",
   "license": "MIT",
+  "homepage": "https://github.com/gdomaradzki/focus-gestor-orcamentos#readme",
+  "_moduleAliases": {
+     "@root": ".",
+     "@BudgetManager": "./services/BudgetManagerAPI",
+     "@BudgetManagerModels":"./services/BudgetManagerAPI/app/models",
+     "@BudgetManagerAPI":"./services/BudgetManagerAPI/config/app.js",
+     "@config": "./services/BudgetManagerAPI/config/index.js"
+  },
   "dependencies": {
     "bcrypt": "^2.0.1",
     "body-parser": "^1.18.3",
